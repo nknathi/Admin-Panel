@@ -1,15 +1,21 @@
 // components provided by react-admin for building the admin dashboard.
 import { Admin, Resource, ShowGuesser } from "react-admin";
+
 // custom data provider used to interact with the backend API or data source.
 import { dataProviderX } from "./dataProvider";
+
 // components used to manage users and posts in the admin dashboard.
 import { UserList } from "./users";
+
 import { PostList, PostEdit, PostCreate } from "./posts";
+
 // icons imported from the Material-UI library.
 import PostIcon from "@mui/icons-material/Book";
 import UserIcon from "@mui/icons-material/Group";
+
 // custom dashboard component.
 import { Dashboard } from "./Dashboard";
+
 // custom authentication provider.
 import { authProvider } from "./authProvider";
 

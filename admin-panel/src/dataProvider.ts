@@ -2,7 +2,7 @@ import create from 'react';
 // provider is used to connect to a JSON Server backend.
 import jsonServerProvider from "ra-data-json-server";
 // provides tools for building admin interfaces.
-import { DataProvider, Resource, fetchUtils } from "react-admin";
+import { DataProvider, fetchUtils } from "react-admin";
 // used to serialize query parameters into a URL-friendly string.
 import { stringify } from "querystring";
 
